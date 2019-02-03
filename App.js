@@ -119,7 +119,6 @@ export default class App extends Component {
                 style={styles.input2}
                 placeholder="Time"
                 placeholderTextColor="rgba(255,255,255,0.😎"
-                secureTextEntry
                 autoCorrect={false}
                 ref={"Time"}
                 onChangeText={Time => this.setState({ Time })}
@@ -129,7 +128,6 @@ export default class App extends Component {
                 style={styles.input}
                 placeholder="Price $"
                 placeholderTextColor="rgba(255,255,255,0.😎"
-                secureTextEntry
                 autoCorrect={false}
                 ref={"Price"}
                 onChangeText={Price => this.setState({ Price })}
